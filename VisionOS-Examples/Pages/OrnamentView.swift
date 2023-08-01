@@ -55,7 +55,7 @@ struct OrnamentView: View {
             }
         }
         .ornament(
-            visibility: .visible,
+            visibility: showOrnament ? .visible : .hidden,
             attachmentAnchor: .scene(alignment: ornamentPosition.alignment),
             contentAlignment: contentAlignment.alignment) {
                 Text("Ornament Content")
