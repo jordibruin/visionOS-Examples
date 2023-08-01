@@ -21,6 +21,7 @@
 		C26C3A452A791C3600BF7741 /* SimpleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A442A791C3600BF7741 /* SimpleControlView.swift */; };
 		C26C3A472A793D6000BF7741 /* SimpleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A462A793D6000BF7741 /* SimpleGridView.swift */; };
 		C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */; };
+		C2DAFC122A799D9E0069262F /* OrnamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFC112A799D9E0069262F /* OrnamentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C26C3A442A791C3600BF7741 /* SimpleControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleControlView.swift; sourceTree = "<group>"; };
 		C26C3A462A793D6000BF7741 /* SimpleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridView.swift; sourceTree = "<group>"; };
 		C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWindowView.swift; sourceTree = "<group>"; };
+		C2DAFC112A799D9E0069262F /* OrnamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrnamentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				C26C3A442A791C3600BF7741 /* SimpleControlView.swift */,
 				C26C3A462A793D6000BF7741 /* SimpleGridView.swift */,
 				C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */,
+				C2DAFC112A799D9E0069262F /* OrnamentView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				C20B98902A740E3400C34172 /* ImmersiveView.swift in Sources */,
 				C26C3A452A791C3600BF7741 /* SimpleControlView.swift in Sources */,
 				C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */,
+				C2DAFC122A799D9E0069262F /* OrnamentView.swift in Sources */,
 				C26C3A412A791B3900BF7741 /* Page.swift in Sources */,
 				C26C3A392A78187A00BF7741 /* SimpleToggleWindow.swift in Sources */,
 				C26C3A3E2A7909C900BF7741 /* CustomSizeWindow.swift in Sources */,
