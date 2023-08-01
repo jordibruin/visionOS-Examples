@@ -37,3 +37,13 @@ https://github.com/jordibruin/VisionOS-Examples/assets/170948/76ac568e-fa0d-47c9
 
 https://github.com/jordibruin/VisionOS-Examples/assets/170948/296bf165-903e-443c-a4eb-427a42cbcfaf
 
+
+
+## Other Example Repos
+Check out my other example repos
+
+[🏝 Dynamic Islands](https://github.com/jordibruin/Dynamic-Islands)
+
+[📊 Swift Charts](https://github.com/jordibruin/Swift-Charts-Examples)
+
+[🥽 TipKit](https://github.com/jordibruin/TipKit-Examples)
