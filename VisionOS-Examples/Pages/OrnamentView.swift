@@ -66,7 +66,34 @@ struct OrnamentView: View {
                             style: .continuous
                         )
                     )
-            }   
+            }
+        
+          
+        // extra larger ornament, coming soon
+//            .ornament(
+//                visibility: showOrnament ? .visible : .hidden,
+//                attachmentAnchor: .scene(alignment: .trailing),
+//                contentAlignment: .center) {
+//                    VStack {
+//                        Text("Title")
+//                            .font(.largeTitle)
+//                        Text("Test")
+//                            .font(.largeTitle)
+//                        Text("Test")
+//                            .font(.largeTitle)
+//                        Text("Test")
+//                            .font(.largeTitle)
+//                        Text("Test")
+//                            .font(.largeTitle)
+//                    }
+//                    .padding(32)
+//                    .glassBackgroundEffect(
+//                        in: RoundedRectangle(
+//                            cornerRadius: 32,
+//                            style: .continuous
+//                        )
+//                    )
+//                }
     }
 }
 
