@@ -29,7 +29,7 @@ If you want to add to the repo, make a PR and look at the example pages on how t
 
 https://github.com/jordibruin/VisionOS-Examples/assets/170948/ac6eabbc-4a3b-4dbd-9290-cd5fc96c137e
 
-https://github.com/jordibruin/VisionOS-Examples/assets/170948/618e39c2-fd75-410a-b23f-c344b956356b
+https://github.com/jordibruin/visionOS-Examples/assets/170948/29c05332-3d7f-48c2-a63f-b2d33c6265f6
 
 https://github.com/jordibruin/VisionOS-Examples/assets/170948/abb613da-4915-46cd-a68e-e8db68565ab0
 
