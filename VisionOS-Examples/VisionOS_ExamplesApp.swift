@@ -25,6 +25,46 @@ struct VisionOS_ExamplesApp: App {
                     .foregroundStyle(.white)
             }
         })
+        
+        WindowGroup(for: CustomSizeWindow.self) { window in
+            VStack {
+                Spacer()
+                ZStack {
+                    Color.red
+                    VStack {
+                        Text("Window")
+                            .font(.largeTitle)
+                            .bold()
+                            .foregroundStyle(.white)
+                        
+                        
+                        Text("\(Int(window.wrappedValue!.width)) x \(Int(window.wrappedValue!.height))")
+                            .font(.title2)
+                            .bold()
+                            .foregroundStyle(.white)
+                    }
+                }
+                .glassBackgroundEffect(
+                    in: RoundedRectangle(
+                        cornerRadius: 32,
+                        style: .continuous
+                    )
+                )
+                .frame(width: window.wrappedValue?.width, height: window.wrappedValue?.height)
+            }
+            // This makes it so your window is actually the size you tell it to be
+            // The resize button won't be on the original position all the way to the right
+            .onAppear {
+                guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+                    return
+                }
+        
+                windowScene.requestGeometryUpdate(.Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
+            }
+        }
+        // Add this to make your windows any size you want
+        .windowStyle(.plain)
+
     }
 }
 
@@ -54,28 +94,3 @@ class ToggleManager: ObservableObject {
 //}.immersionStyle(selection: .constant(.full), in: .full)
 
 
-//WindowGroup(for: CustomSizeWindow.self) { window in
-//    VStack {
-//        Spacer()
-//        VStack {
-//            Text(window.wrappedValue?.id.uuidString ?? "NO ID")
-//        }
-//        .background(Color.red)
-//        .glassBackgroundEffect(
-//            in: RoundedRectangle(
-//                cornerRadius: 32,
-//                style: .continuous
-//            )
-//        )
-//        .frame(width: window.wrappedValue?.width, height: window.wrappedValue?.height)
-//    }
-//    .onAppear {
-//        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
-//            return
-//        }
-//            
-//        windowScene.requestGeometryUpdate(.Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
-//    }
-//}
-// Add this to make your windows any size you want
-//.windowStyle(.plain)

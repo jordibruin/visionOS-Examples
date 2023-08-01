@@ -66,8 +66,7 @@ struct OrnamentView: View {
                             style: .continuous
                         )
                     )
-            }
-        
+            }   
     }
 }
 
