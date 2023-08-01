@@ -7,33 +7,6 @@
 
 import SwiftUI
 
-enum OrnamentAlignment: String {
-
-    case top
-    case topTrailing
-    case trailing
-    case bottomTrailing
-    case bottom
-    case leading
-    
-    var alignment: Alignment {
-        switch self {
-        case .top:
-            return .top
-        case .trailing:
-            return .trailing
-        case .bottom:
-            return .bottom
-        case .topTrailing:
-            return .topTrailing
-        case .bottomTrailing:
-            return .bottomTrailing
-        case .leading:
-            return .leading
-        }
-    }
-}
-
 struct OrnamentView: View {
     
     @State var ornamentPosition: OrnamentAlignment = .bottom
