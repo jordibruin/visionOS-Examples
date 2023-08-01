@@ -11,8 +11,6 @@ import RealityKitContent
 
 struct ContentView: View {
 
-    @Environment(\.openWindow) var openWindow
-
     @State var selectedPage: Page?
     
     var body: some View {
