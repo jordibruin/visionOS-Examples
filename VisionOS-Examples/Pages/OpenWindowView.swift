@@ -21,7 +21,6 @@ struct OpenWindowView: View {
                     Text("Open new window")
                         .font(.title)
                 }
-//                .buttonStyle(.borderedProminent)
             }
             
             Section {
@@ -31,7 +30,6 @@ struct OpenWindowView: View {
                     Text("200x200")
                         .font(.title)
                 }
-//                .buttonStyle(.borderedProminent)
                 
                 Button {
                     openWindow(value: CustomSizeWindow(width: 600, height: 200))
@@ -39,7 +37,6 @@ struct OpenWindowView: View {
                     Text("600x200")
                         .font(.title)
                 }
-//                .buttonStyle(.borderedProminent)
                 
                 Button {
                     openWindow(value: CustomSizeWindow(width: 600, height: 400))
@@ -47,7 +44,6 @@ struct OpenWindowView: View {
                     Text("600x400")
                         .font(.title)
                 }
-//                .buttonStyle(.borderedProminent)
             }
         }
         .foregroundStyle(.white)
