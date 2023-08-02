@@ -1,8 +1,7 @@
 # VisionOS-Examples
-Examples of how to build things in VisionOS. Very early, so expect a lot of changes.
+Examples of how to build things in visionOS. Very early, so expect a lot of changes. Create an issue if there's something you think should be added.
 
-![CleanShot 2023-08-01 at 15 32 44](https://github.com/jordibruin/VisionOS-Examples/assets/170948/2604c2ce-54c5-4fa7-ae93-f753b2139382)
-
+![Simulator Screen Recording - Apple Vision Pro - 2023-08-02 at 14 23 42](https://github.com/jordibruin/visionOS-Examples/assets/170948/73b01435-18ea-4e1a-a250-48a8d93e8559)
 
 # Todo
 - [x] Simple Text Elements
