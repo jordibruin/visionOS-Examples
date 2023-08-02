@@ -21,6 +21,7 @@ struct SimpleGridView: View {
                 ForEach(1...60, id: \.self) { index in
                     Color.random
                         .frame(height: 200)
+                        .cornerRadius(14)
                 }
             }
             .padding()
