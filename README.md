@@ -11,16 +11,17 @@ Examples of how to build things in visionOS. Very early, so expect a lot of chan
 - [x] Simple Ornaments
 - [x] Open windows with custom sizes
 - [x] Present Sheets
-- [ ] Add more controls
+- [x] Map view
+- [ ] Add more controls to the controls page
 - [ ] More advanced text layouts
 - [ ] Images
-- [ ] Map view
-- [ ] Advanced window presentation
+- [ ] More Advanced window presentation
 - [ ] Different size window presentation
 - [ ] Accessing sensors
 - [ ] Immersion mode
 - [ ] Immersion demos
 - [ ] 3d objects
+- [ ] Spatial Audio
 - [ ] Animations
 
 If you want to add to the repo, make a PR and look at the example pages on how to add your own. You'll need to create a new page and a View that represents what you want to show there. Feel free to make a pr and tag me into it if you're not sure.
