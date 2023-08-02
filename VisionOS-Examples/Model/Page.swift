@@ -16,6 +16,7 @@ enum Page: String, CaseIterable, Identifiable {
     case simpleGrid
     case openWindow
     case ornaments
+    case presentSheet
     
     var id: String { self.rawValue }
     
@@ -31,6 +32,8 @@ enum Page: String, CaseIterable, Identifiable {
             "Open Window"
         case .ornaments:
             "Ornaments"
+        case .presentSheet:
+            "Present Sheet"
         }
     }
     
@@ -46,6 +49,8 @@ enum Page: String, CaseIterable, Identifiable {
             "pip.fill"
         case .ornaments:
             "squares.below.rectangle"
+        case .presentSheet:
+            "rectangle.fill.on.rectangle.fill"
         }
     }
     
@@ -62,6 +67,8 @@ enum Page: String, CaseIterable, Identifiable {
             OpenWindowView()
         case .ornaments:
             OrnamentView()
+        case .presentSheet:
+            PresentSheetView()
         }
     }
 }

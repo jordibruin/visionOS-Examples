@@ -16,6 +16,7 @@ enum OrnamentAlignment: String {
     case bottomTrailing
     case bottom
     case leading
+    case center
     
     var alignment: Alignment {
         switch self {
@@ -31,6 +32,8 @@ enum OrnamentAlignment: String {
             return .bottomTrailing
         case .leading:
             return .leading
+        case .center:
+            return .center
         }
     }
 }

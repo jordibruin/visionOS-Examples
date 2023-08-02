@@ -13,6 +13,7 @@
 		C20B98902A740E3400C34172 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B988F2A740E3400C34172 /* ImmersiveView.swift */; };
 		C20B98922A740E3700C34172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20B98912A740E3700C34172 /* Assets.xcassets */; };
 		C20B98952A740E3700C34172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20B98942A740E3700C34172 /* Preview Assets.xcassets */; };
+		C2578A172A7A7D1E00B56916 /* PresentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */; };
 		C26C3A392A78187A00BF7741 /* SimpleToggleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A382A78187A00BF7741 /* SimpleToggleWindow.swift */; };
 		C26C3A3B2A78198700BF7741 /* CanvasWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A3A2A78198700BF7741 /* CanvasWindow.swift */; };
 		C26C3A3E2A7909C900BF7741 /* CustomSizeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */; };
@@ -33,6 +34,7 @@
 		C20B988F2A740E3400C34172 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		C20B98912A740E3700C34172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20B98942A740E3700C34172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentSheetView.swift; sourceTree = "<group>"; };
 		C26C3A382A78187A00BF7741 /* SimpleToggleWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToggleWindow.swift; sourceTree = "<group>"; };
 		C26C3A3A2A78198700BF7741 /* CanvasWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasWindow.swift; sourceTree = "<group>"; };
 		C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSizeWindow.swift; sourceTree = "<group>"; };
@@ -117,8 +119,8 @@
 		C26C3A3C2A7908FB00BF7741 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */,
 				C26C3A402A791B3900BF7741 /* Page.swift */,
+				C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */,
 				C2DAFC132A79A2910069262F /* OrnamentAlignment.swift */,
 			);
 			path = Model;
@@ -132,6 +134,7 @@
 				C26C3A462A793D6000BF7741 /* SimpleGridView.swift */,
 				C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */,
 				C2DAFC112A799D9E0069262F /* OrnamentView.swift */,
+				C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				C20B988C2A740E3400C34172 /* VisionOS_ExamplesApp.swift in Sources */,
 				C26C3A472A793D6000BF7741 /* SimpleGridView.swift in Sources */,
 				C20B98902A740E3400C34172 /* ImmersiveView.swift in Sources */,
+				C2578A172A7A7D1E00B56916 /* PresentSheetView.swift in Sources */,
 				C26C3A452A791C3600BF7741 /* SimpleControlView.swift in Sources */,
 				C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */,
 				C2DAFC142A79A2910069262F /* OrnamentAlignment.swift in Sources */,
@@ -358,6 +362,8 @@
 				DEVELOPMENT_TEAM = 8Q7TMPA46J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "visionOS Examples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +390,8 @@
 				DEVELOPMENT_TEAM = 8Q7TMPA46J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "visionOS Examples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
