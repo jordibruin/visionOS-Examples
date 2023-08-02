@@ -25,23 +25,32 @@ struct OpenWindowView: View {
             
             Section {
                 Button {
-                    openWindow(value: CustomSizeWindow(width: 200, height: 200))
+                    openWindow(value: CustomSizeWindow(width: 200, height: 200, adjustable: false))
                 } label: {
                     Text("200x200")
                         .font(.title)
                 }
                 
                 Button {
-                    openWindow(value: CustomSizeWindow(width: 600, height: 200))
+                    openWindow(value: CustomSizeWindow(width: 600, height: 200, adjustable: false))
                 } label: {
                     Text("600x200")
                         .font(.title)
                 }
                 
                 Button {
-                    openWindow(value: CustomSizeWindow(width: 600, height: 400))
+                    openWindow(value: CustomSizeWindow(width: 600, height: 400, adjustable: false))
                 } label: {
                     Text("600x400")
+                        .font(.title)
+                }
+            }
+            
+            Section {
+                Button {
+                    openWindow(value: CustomSizeWindow(width: 400, height: 400, adjustable: true))
+                } label: {
+                    Text("Adjustable Window")
                         .font(.title)
                 }
             }

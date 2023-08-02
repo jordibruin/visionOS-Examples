@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CustomSizeWindow: Equatable, Identifiable, Codable, Hashable {
     let id = UUID()
-    let width: CGFloat
-    let height: CGFloat
+    var width: CGFloat
+    var height: CGFloat
+    
+    let adjustable: Bool
 }

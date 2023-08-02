@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SampleWindowView: View {
     
-    let window: CustomSizeWindow
+    @State var window: CustomSizeWindow
     
     var body: some View {
         ZStack {
@@ -25,6 +25,18 @@ struct SampleWindowView: View {
                     .font(.title2)
                     .bold()
                     .foregroundStyle(.white)
+                
+                if window.adjustable {
+                    Button {
+                        withAnimation {
+                            window.width = CGFloat.random(in: 300...500)
+                            window.height = CGFloat.random(in: 300...500)
+                        }
+                    } label: {
+                        Text("Change size")
+                    }
+
+                }
             }
         }
         .glassBackgroundEffect(
