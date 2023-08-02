@@ -28,17 +28,20 @@ If you want to add to the repo, make a PR and look at the example pages on how t
 
 ## Examples
 
-https://github.com/jordibruin/VisionOS-Examples/assets/170948/ac6eabbc-4a3b-4dbd-9290-cd5fc96c137e
-
-https://github.com/jordibruin/visionOS-Examples/assets/170948/29c05332-3d7f-48c2-a63f-b2d33c6265f6
-
-https://github.com/jordibruin/VisionOS-Examples/assets/170948/abb613da-4915-46cd-a68e-e8db68565ab0
-
-https://github.com/jordibruin/VisionOS-Examples/assets/170948/76ac568e-fa0d-47c9-8d23-b25fb58a2406
-
+# Text Elements
 https://github.com/jordibruin/VisionOS-Examples/assets/170948/296bf165-903e-443c-a4eb-427a42cbcfaf
 
+# Controls
+https://github.com/jordibruin/VisionOS-Examples/assets/170948/76ac568e-fa0d-47c9-8d23-b25fb58a2406
 
+# Grid
+https://github.com/jordibruin/VisionOS-Examples/assets/170948/abb613da-4915-46cd-a68e-e8db68565ab0
+
+# Ornaments
+https://github.com/jordibruin/visionOS-Examples/assets/170948/48a5146f-062b-448f-a0a4-84c743823e8d
+
+# Open Windows
+https://github.com/jordibruin/visionOS-Examples/assets/170948/29c05332-3d7f-48c2-a63f-b2d33c6265f6
 
 ## Other Example Repos
 Check out my other example repos
