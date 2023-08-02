@@ -29,29 +29,8 @@ struct VisionOS_ExamplesApp: App {
         WindowGroup(for: CustomSizeWindow.self) { window in
             VStack {
                 Spacer()
-                ZStack {
-                    Color.red
-                    VStack {
-                        Text("Window")
-                            .font(.largeTitle)
-                            .bold()
-                            .foregroundStyle(.white)
-                        
-                        
-                        Text("\(Int(window.wrappedValue!.width)) x \(Int(window.wrappedValue!.height))")
-                            .font(.title2)
-                            .bold()
-                            .foregroundStyle(.white)
-                    }
-                }
-                .glassBackgroundEffect(
-                    in: RoundedRectangle(
-                        cornerRadius: 32,
-                        style: .continuous
-                    )
-                )
-                .frame(width: window.wrappedValue?.width, height: window.wrappedValue?.height)
                 
+                SampleWindowView(window: window.wrappedValue!)
             }
             // This makes it so your window is actually the size you tell it to be
             // The resize button won't be on the original position all the way to the right
