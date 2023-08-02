@@ -16,6 +16,8 @@
 		C2578A172A7A7D1E00B56916 /* PresentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */; };
 		C2578A192A7A87A500B56916 /* SampleWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A182A7A87A500B56916 /* SampleWindowView.swift */; };
 		C2578A1B2A7A881900B56916 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A1A2A7A881900B56916 /* MapKitView.swift */; };
+		C2602AB22A7A9C3F002E60EC /* SpatialAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2602AB12A7A9C3F002E60EC /* SpatialAudioView.swift */; };
+		C2602AB42A7A9DCA002E60EC /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2602AB32A7A9DCA002E60EC /* audio.mp3 */; };
 		C26C3A392A78187A00BF7741 /* SimpleToggleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A382A78187A00BF7741 /* SimpleToggleWindow.swift */; };
 		C26C3A3B2A78198700BF7741 /* CanvasWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A3A2A78198700BF7741 /* CanvasWindow.swift */; };
 		C26C3A3E2A7909C900BF7741 /* CustomSizeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */; };
@@ -39,6 +41,8 @@
 		C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentSheetView.swift; sourceTree = "<group>"; };
 		C2578A182A7A87A500B56916 /* SampleWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWindowView.swift; sourceTree = "<group>"; };
 		C2578A1A2A7A881900B56916 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		C2602AB12A7A9C3F002E60EC /* SpatialAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudioView.swift; sourceTree = "<group>"; };
+		C2602AB32A7A9DCA002E60EC /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		C26C3A382A78187A00BF7741 /* SimpleToggleWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToggleWindow.swift; sourceTree = "<group>"; };
 		C26C3A3A2A78198700BF7741 /* CanvasWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasWindow.swift; sourceTree = "<group>"; };
 		C26C3A3D2A7909C900BF7741 /* CustomSizeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSizeWindow.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			children = (
 				C20B988B2A740E3400C34172 /* VisionOS_ExamplesApp.swift */,
 				C20B988D2A740E3400C34172 /* ContentView.swift */,
+				C2602AB32A7A9DCA002E60EC /* audio.mp3 */,
 				C26C3A3F2A79195100BF7741 /* Pages */,
 				C26C3A3C2A7908FB00BF7741 /* Model */,
 				C26C3A372A78186E00BF7741 /* Windows */,
@@ -141,6 +146,7 @@
 				C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */,
 				C2578A182A7A87A500B56916 /* SampleWindowView.swift */,
 				C2578A1A2A7A881900B56916 /* MapKitView.swift */,
+				C2602AB12A7A9C3F002E60EC /* SpatialAudioView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2602AB42A7A9DCA002E60EC /* audio.mp3 in Resources */,
 				C20B98952A740E3700C34172 /* Preview Assets.xcassets in Resources */,
 				C20B98922A740E3700C34172 /* Assets.xcassets in Resources */,
 			);
@@ -225,6 +232,7 @@
 				C20B988C2A740E3400C34172 /* VisionOS_ExamplesApp.swift in Sources */,
 				C26C3A472A793D6000BF7741 /* SimpleGridView.swift in Sources */,
 				C20B98902A740E3400C34172 /* ImmersiveView.swift in Sources */,
+				C2602AB22A7A9C3F002E60EC /* SpatialAudioView.swift in Sources */,
 				C2578A172A7A7D1E00B56916 /* PresentSheetView.swift in Sources */,
 				C26C3A452A791C3600BF7741 /* SimpleControlView.swift in Sources */,
 				C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */,

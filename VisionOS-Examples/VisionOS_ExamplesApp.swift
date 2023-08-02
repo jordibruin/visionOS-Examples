@@ -11,6 +11,7 @@ import SwiftUI
 struct VisionOS_ExamplesApp: App {
     
     @StateObject var toggleManager = ToggleManager()
+    @State var immersionState: ImmersionStyle = .mixed
     
     var body: some Scene {
         WindowGroup {
@@ -46,6 +47,10 @@ struct VisionOS_ExamplesApp: App {
         // Add this to make your windows any size you want
         .windowStyle(.plain)
 
+        ImmersiveSpace(id: "spatialAudio") {
+            SoundOrbView(soundFile: "audio.mp3")
+        }
+        .immersionStyle(selection: $immersionState, in: .mixed)
     }
 }
 

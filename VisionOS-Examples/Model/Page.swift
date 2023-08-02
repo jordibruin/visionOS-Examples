@@ -18,6 +18,7 @@ enum Page: String, CaseIterable, Identifiable {
     case ornaments
     case presentSheet
     case mapkit
+    case spatialAudio
     
     var id: String { self.rawValue }
     
@@ -37,6 +38,8 @@ enum Page: String, CaseIterable, Identifiable {
             "Present Sheet"
         case .mapkit:
             "MapKit"
+        case .spatialAudio:
+            "Spatial Audio"
         }
     }
     
@@ -56,6 +59,8 @@ enum Page: String, CaseIterable, Identifiable {
             "rectangle.fill.on.rectangle.fill"
         case .mapkit:
             "map.fill"
+        case .spatialAudio:
+            "dot.radiowaves.left.and.right"
         }
     }
     
@@ -76,6 +81,8 @@ enum Page: String, CaseIterable, Identifiable {
             PresentSheetView()
         case .mapkit:
             MapKitView()
+        case .spatialAudio:
+            SpatialAudioView()
         }
     }
 }
