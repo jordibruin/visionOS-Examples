@@ -11,6 +11,7 @@ Examples of how to build things in VisionOS. Very early, so expect a lot of chan
 - [x] Simple Present Window
 - [x] Simple Ornaments
 - [x] Open windows with custom sizes
+- [x] Present Sheets
 - [ ] Add more controls
 - [ ] More advanced text layouts
 - [ ] Images
