@@ -1,4 +1,4 @@
-# VisionOS-Examples
+# visionOS Examples
 Examples of how to build things in visionOS. Very early, so expect a lot of changes. Create an issue if there's something you think should be added.
 
 ![Simulator Screen Recording - Apple Vision Pro - 2023-08-02 at 14 23 42](https://github.com/jordibruin/visionOS-Examples/assets/170948/73b01435-18ea-4e1a-a250-48a8d93e8559)
