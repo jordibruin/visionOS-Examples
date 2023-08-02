@@ -51,14 +51,16 @@ struct VisionOS_ExamplesApp: App {
                     )
                 )
                 .frame(width: window.wrappedValue?.width, height: window.wrappedValue?.height)
+                
             }
             // This makes it so your window is actually the size you tell it to be
             // The resize button won't be on the original position all the way to the right
+            // ⚠️ not working for the 200x200 width window some reason right now, investigating
             .onAppear {
                 guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
                     return
                 }
-        
+                
                 windowScene.requestGeometryUpdate(.Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
             }
         }
