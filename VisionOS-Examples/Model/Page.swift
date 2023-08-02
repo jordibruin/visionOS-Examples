@@ -17,6 +17,7 @@ enum Page: String, CaseIterable, Identifiable {
     case openWindow
     case ornaments
     case presentSheet
+    case mapkit
     
     var id: String { self.rawValue }
     
@@ -34,6 +35,8 @@ enum Page: String, CaseIterable, Identifiable {
             "Ornaments"
         case .presentSheet:
             "Present Sheet"
+        case .mapkit:
+            "MapKit"
         }
     }
     
@@ -51,6 +54,8 @@ enum Page: String, CaseIterable, Identifiable {
             "squares.below.rectangle"
         case .presentSheet:
             "rectangle.fill.on.rectangle.fill"
+        case .mapkit:
+            "map.fill"
         }
     }
     
@@ -69,6 +74,8 @@ enum Page: String, CaseIterable, Identifiable {
             OrnamentView()
         case .presentSheet:
             PresentSheetView()
+        case .mapkit:
+            MapKitView()
         }
     }
 }
