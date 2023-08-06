@@ -13,6 +13,7 @@ Examples of how to build things in visionOS. Very early, so expect a lot of chan
 - [x] Present Sheets
 - [x] Map view
 - [x] Simple Spatial Audio Example
+- [x] Volumetric Window
 - [ ] Add more controls to the controls page
 - [ ] More advanced text layouts
 - [ ] Images
