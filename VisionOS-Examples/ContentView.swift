@@ -30,7 +30,7 @@ struct ContentView: View {
             }
             .navigationTitle("Pages")
             .onAppear {
-                selectedPage = .simpleText
+                selectedPage = .openWindow
             }
         } detail: {
             if let selectedPage {

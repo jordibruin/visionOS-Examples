@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 @main
 struct VisionOS_ExamplesApp: App {
     
@@ -26,6 +27,12 @@ struct VisionOS_ExamplesApp: App {
                     .foregroundStyle(.white)
             }
         })
+        
+        WindowGroup(id: "volumetric", content: {
+            GlobeView()
+        })
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.5, height: 0.5, depth: 0.5, in: .meters)
         
         WindowGroup(for: CustomSizeWindow.self) { window in
             VStack {
@@ -57,26 +64,3 @@ struct VisionOS_ExamplesApp: App {
 class ToggleManager: ObservableObject {
     @Published var oneToggled = false
 }
-
-//
-//WindowGroup(id: "canvas-window-1", content: {
-//    VStack {
-//        Spacer()
-//        CanvasWindow(toggleManager: toggleManager)
-//    }
-//    .onAppear {
-//        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
-//            return
-//        }
-//            
-//        windowScene.requestGeometryUpdate(.Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
-//    }
-//})
-//.windowStyle(.plain)
-//.windowResizability(.automatic)
-
-//ImmersiveSpace(id: "ImmersiveSpace") {
-//    ImmersiveView()
-//}.immersionStyle(selection: .constant(.full), in: .full)
-
-

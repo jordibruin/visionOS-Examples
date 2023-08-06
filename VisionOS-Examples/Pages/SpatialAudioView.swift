@@ -12,9 +12,7 @@ struct SpatialAudioView: View {
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
     
     var body: some View {
-        
         VStack {
-
             Text("Add a 3D orb with an audio file attached to it. You can drag it around to test spatial audio experiences.")
             Button {
                 Task {
@@ -23,7 +21,6 @@ struct SpatialAudioView: View {
             } label: {
                 Text("Start Spatial Audio Experience")
             }
-
         }
     }
 }

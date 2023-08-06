@@ -39,6 +39,13 @@ struct OpenWindowView: View {
                 }
                 
                 Button {
+                    openWindow(value: CustomSizeWindow(width: 400, height: 400, adjustable: false))
+                } label: {
+                    Text("400x400")
+                        .font(.title)
+                }
+                
+                Button {
                     openWindow(value: CustomSizeWindow(width: 600, height: 400, adjustable: false))
                 } label: {
                     Text("600x400")
@@ -51,6 +58,15 @@ struct OpenWindowView: View {
                     openWindow(value: CustomSizeWindow(width: 400, height: 400, adjustable: true))
                 } label: {
                     Text("Adjustable Window")
+                        .font(.title)
+                }
+            }
+            
+            Section {
+                Button {
+                    openWindow(id: "volumetric")
+                } label: {
+                    Text("Volumetric Window")
                         .font(.title)
                 }
             }

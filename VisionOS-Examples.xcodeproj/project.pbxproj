@@ -13,6 +13,7 @@
 		C20B98902A740E3400C34172 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B988F2A740E3400C34172 /* ImmersiveView.swift */; };
 		C20B98922A740E3700C34172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20B98912A740E3700C34172 /* Assets.xcassets */; };
 		C20B98952A740E3700C34172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20B98942A740E3700C34172 /* Preview Assets.xcassets */; };
+		C23D30AB2A8042CF003DF569 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D30AA2A8042CF003DF569 /* GlobeView.swift */; };
 		C2578A172A7A7D1E00B56916 /* PresentSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */; };
 		C2578A192A7A87A500B56916 /* SampleWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A182A7A87A500B56916 /* SampleWindowView.swift */; };
 		C2578A1B2A7A881900B56916 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2578A1A2A7A881900B56916 /* MapKitView.swift */; };
@@ -28,6 +29,7 @@
 		C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */; };
 		C2DAFC122A799D9E0069262F /* OrnamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFC112A799D9E0069262F /* OrnamentView.swift */; };
 		C2DAFC142A79A2910069262F /* OrnamentAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAFC132A79A2910069262F /* OrnamentAlignment.swift */; };
+		C2F5264B2A7D8EFA00FF91CC /* Globe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C2F5264A2A7D8EFA00FF91CC /* Globe.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		C20B988F2A740E3400C34172 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		C20B98912A740E3700C34172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20B98942A740E3700C34172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C23D30AA2A8042CF003DF569 /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
 		C2578A162A7A7D1E00B56916 /* PresentSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentSheetView.swift; sourceTree = "<group>"; };
 		C2578A182A7A87A500B56916 /* SampleWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWindowView.swift; sourceTree = "<group>"; };
 		C2578A1A2A7A881900B56916 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		C2DAFC0F2A79491E0069262F /* OpenWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWindowView.swift; sourceTree = "<group>"; };
 		C2DAFC112A799D9E0069262F /* OrnamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrnamentView.swift; sourceTree = "<group>"; };
 		C2DAFC132A79A2910069262F /* OrnamentAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrnamentAlignment.swift; sourceTree = "<group>"; };
+		C2F5264A2A7D8EFA00FF91CC /* Globe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Globe.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				C20B988B2A740E3400C34172 /* VisionOS_ExamplesApp.swift */,
 				C20B988D2A740E3400C34172 /* ContentView.swift */,
 				C2602AB32A7A9DCA002E60EC /* audio.mp3 */,
+				C2F5264A2A7D8EFA00FF91CC /* Globe.usdz */,
 				C26C3A3F2A79195100BF7741 /* Pages */,
 				C26C3A3C2A7908FB00BF7741 /* Model */,
 				C26C3A372A78186E00BF7741 /* Windows */,
@@ -147,6 +152,7 @@
 				C2578A182A7A87A500B56916 /* SampleWindowView.swift */,
 				C2578A1A2A7A881900B56916 /* MapKitView.swift */,
 				C2602AB12A7A9C3F002E60EC /* SpatialAudioView.swift */,
+				C23D30AA2A8042CF003DF569 /* GlobeView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 				C2602AB42A7A9DCA002E60EC /* audio.mp3 in Resources */,
 				C20B98952A740E3700C34172 /* Preview Assets.xcassets in Resources */,
 				C20B98922A740E3700C34172 /* Assets.xcassets in Resources */,
+				C2F5264B2A7D8EFA00FF91CC /* Globe.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 				C26C3A452A791C3600BF7741 /* SimpleControlView.swift in Sources */,
 				C2DAFC102A79491E0069262F /* OpenWindowView.swift in Sources */,
 				C2DAFC142A79A2910069262F /* OrnamentAlignment.swift in Sources */,
+				C23D30AB2A8042CF003DF569 /* GlobeView.swift in Sources */,
 				C2DAFC122A799D9E0069262F /* OrnamentView.swift in Sources */,
 				C2578A1B2A7A881900B56916 /* MapKitView.swift in Sources */,
 				C26C3A412A791B3900BF7741 /* Page.swift in Sources */,
@@ -380,6 +388,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "visionOS Examples";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To detect what the user is saying";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To convert speech to text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -408,6 +418,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "visionOS Examples";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To detect what the user is saying";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To convert speech to text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

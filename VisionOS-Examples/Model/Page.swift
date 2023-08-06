@@ -19,6 +19,7 @@ enum Page: String, CaseIterable, Identifiable {
     case presentSheet
     case mapkit
     case spatialAudio
+    case volumetric
     
     var id: String { self.rawValue }
     
@@ -40,6 +41,8 @@ enum Page: String, CaseIterable, Identifiable {
             "MapKit"
         case .spatialAudio:
             "Spatial Audio"
+        case .volumetric:
+            "Volumetric Window"
         }
     }
     
@@ -61,6 +64,8 @@ enum Page: String, CaseIterable, Identifiable {
             "map.fill"
         case .spatialAudio:
             "dot.radiowaves.left.and.right"
+        case .volumetric:
+            "globe.europe.africa.fill"
         }
     }
     
@@ -83,6 +88,8 @@ enum Page: String, CaseIterable, Identifiable {
             MapKitView()
         case .spatialAudio:
             SpatialAudioView()
+        case .volumetric:
+            GlobeView()
         }
     }
 }
