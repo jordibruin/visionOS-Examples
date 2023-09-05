@@ -35,11 +35,16 @@ struct VisionOS_ExamplesApp: App {
         .defaultSize(width: 0.5, height: 0.5, depth: 0.5, in: .meters)
         
         WindowGroup(for: CustomSizeWindow.self) { window in
+//            Color.green
+//                .ornament(attachmentAnchor: .scene(alignment: .trailing), ornament: {
+//                    Color.red.frame(width: 100,height: 100)
+//                })
             VStack {
                 Spacer()
                 
                 SampleWindowView(window: window.wrappedValue!)
             }
+            
             // This makes it so your window is actually the size you tell it to be
             // The resize button won't be on the original position all the way to the right
             // ⚠️ not working for the 200x200 width window some reason right now, investigating
@@ -47,11 +52,12 @@ struct VisionOS_ExamplesApp: App {
                 guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
                     return
                 }
-                
-                windowScene.requestGeometryUpdate(.Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
+                windowScene.requestGeometryUpdate(.Vision(resizingRestrictions: .none))
+//                windowScene.requestGeometryUpdate(. Reality(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
             }
         }
         // Add this to make your windows any size you want
+        .defaultSize(width: 400, height: 700)
         .windowStyle(.plain)
 
         ImmersiveSpace(id: "spatialAudio") {

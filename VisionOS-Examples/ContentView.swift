@@ -12,9 +12,10 @@ import RealityKitContent
 struct ContentView: View {
 
     @State var selectedPage: Page?
+    @State var showSidebar: NavigationSplitViewVisibility = .doubleColumn
     
     var body: some View {
-        NavigationSplitView {
+        NavigationSplitView(columnVisibility: $showSidebar) {
             List {
                 ForEach(Page.allCases) { page in
                     Button {
@@ -32,6 +33,20 @@ struct ContentView: View {
             .onAppear {
                 selectedPage = .openWindow
             }
+            .toolbar {
+                ToolbarItem {
+                    Button(action: {
+                        if showSidebar == .doubleColumn {
+                            showSidebar = .detailOnly
+                        } else {
+                            showSidebar = .doubleColumn
+                        }
+                    }) {
+                        Text(showSidebar == .doubleColumn ? "Hide" : "Show")
+                    }
+                }
+            }
+            
         } detail: {
             if let selectedPage {
                 selectedPage.content

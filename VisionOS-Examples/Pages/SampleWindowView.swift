@@ -35,7 +35,6 @@ struct SampleWindowView: View {
                     } label: {
                         Text("Change size")
                     }
-
                 }
             }
         }
