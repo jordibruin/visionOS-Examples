@@ -95,7 +95,7 @@ struct OrnamentView: View {
         }
         .ornament(
             visibility: showOrnament ? .visible : .hidden,
-            attachmentAnchor: .scene(alignment: ornamentPosition.alignment),
+            attachmentAnchor: .scene(ornamentPosition.unitPoint),
             contentAlignment: contentAlignment.alignment) {
                 Text("Ornament Content")
                     .padding()
@@ -109,7 +109,7 @@ struct OrnamentView: View {
         
         .ornament(
             visibility: showLargeOrnament ? .visible : .hidden,
-            attachmentAnchor: .scene(alignment: largeOrnamentPosition.alignment),
+            attachmentAnchor: .scene(ornamentPosition.unitPoint),
             contentAlignment: largeContentAlignment.alignment) {
                 VStack {
                     Text("Title")
