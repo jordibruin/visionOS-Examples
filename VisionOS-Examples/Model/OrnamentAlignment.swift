@@ -18,6 +18,25 @@ enum OrnamentAlignment: String {
     case leading
     case center
     
+    var unitPoint: UnitPoint {
+        switch self {
+        case .top:
+            return .top
+        case .trailing:
+            return .trailing
+        case .bottom:
+            return .bottom
+        case .topTrailing:
+            return .topTrailing
+        case .bottomTrailing:
+            return .bottomTrailing
+        case .leading:
+            return .leading
+        case .center:
+            return .center
+        }
+    }
+    
     var alignment: Alignment {
         switch self {
         case .top:
